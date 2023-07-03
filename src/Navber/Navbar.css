@@ -1,0 +1,31 @@
+nav{
+    /* width: max-content;
+    display: block;
+    padding: 10px; 
+    z-index: 2;
+    position: fixed;
+    bottom: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    border-radius: 3rem; */
+    
+
+    
+    position: fixed;
+    bottom: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    border-radius: 3rem;
+    
+    
+}
+
+nav .a{
+    
+}
+
+.navA{
+    background-color: skyblue;
+    
+    border-radius: 3rem;
+}

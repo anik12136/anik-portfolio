@@ -1,0 +1,16 @@
+.header_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* position: absolute;
+    left: 0;
+    bottom: 3rem; */
+}
+
+@media (max-width: 640px) {
+    .header_social {
+        display: none;
+    }
+}
+
