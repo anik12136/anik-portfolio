@@ -13,93 +13,99 @@ import mongodb from '../Assets/SkillsPhotos/mongodb.webp'
 import netlify from '../Assets/SkillsPhotos/netlify.png'
 import react from '../Assets/SkillsPhotos/react.png'
 
+
+
+
+
 const Skills = () => {
     return (
-        <div id='skill' className='md:mx-40 mx-4 mt-20'>
+        <div id='skill'>
+            <div data-aos="fade-up"  className='md:mx-40 mx-4 my-40 pt-10'>     
             <div>
                 <h2 className='flex justify-center  my-10 text-5xl'>My Skills</h2>
                 <div className='grid md:grid-cols-6 grid-cols-2 gap-9 '>
 
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
-                        <div className="card-body">
-                            <img className='h-28' src={css} alt="" />
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl ">
+                        <div className="card-body ">
+                            <img className='h-28  hover:h-32 hover:-mt-6' src={css} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={html} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={html} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={firebase} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={firebase} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={node} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={node} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={npm} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={npm} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={express} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={express} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={bootstrap} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={bootstrap} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={github} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={github} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={tailwind} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={tailwind} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={js} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={js} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={mongodb} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={mongodb} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
                         <div className="card-body">
-                            <img className='h-28' src={netlify} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={netlify} alt="" />
                         </div>
 
                     </div>
-                    <div className="card w-40 h-40 bg-sky-400 shadow-xl">
+                    <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl ">
                         <div className="card-body">
-                            <img className='h-28' src={react} alt="" />
+                            <img className='h-28 hover:h-32 hover:-mt-6' src={react} alt="" />
                         </div>
 
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

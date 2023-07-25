@@ -34,7 +34,7 @@ const Banner = () => {
                     <img src={myphoto} alt="me" className=' myPhoto ' />
                 </div>
                 <div >
-                    <a href="#contact" className='scroll_down  text-sky-400'> scroll down--> </a>
+                    <a href="#contact" className='scroll_down  text-sky-400'> scroll down--- </a>
                 </div>
             </div>
             <div>

@@ -2,7 +2,7 @@ import React from 'react';
 import p1 from '../../Assets/ProjectsPhoto/p1.png'
 const P2 = () => {
     return (
-        <div className='flex justify-center mt-4'>
+        <div data-aos="fade-up" className='flex justify-center mt-4'>
             <div className="card w-80 bg-sky-400 shadow-xl ">
                 <figure class="h-60 overflow-hidden rounded-md">
                     <img src={p1} alt="Shoes" class="w-full transition-transform duration-[4000ms] hover:-translate-y-[35%]" />

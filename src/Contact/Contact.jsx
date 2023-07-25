@@ -19,9 +19,9 @@ const Contact = () => {
 
 
     return (
-        <div id='contact' className='md:mx-40 mx-2 mt-10'>
-            <h2 className='flex justify-center text-5xl'>Contact With Me</h2>
-            <div className="hero min-h-screen">
+        <div id='contact' className='md:my-20 md:mx40 mx-2 mt-10 p-10'>
+            <h2 className='flex justify-center md:text-5xl text-3xl'>Contact With Me</h2>
+            <div className="hero min-h-screen md:-mt-14">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left md:ms-10">
                         <h1 className="text-5xl font-bold">feel free to drop a message.</h1>

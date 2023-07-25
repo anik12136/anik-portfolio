@@ -15,7 +15,9 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Project></Project>
+      <div className="md:mx-24">
       <Contact></Contact>
+      </div>
       <Navbar></Navbar>
     </div>
   );
