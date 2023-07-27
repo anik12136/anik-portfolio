@@ -22,7 +22,9 @@ const Skills = () => {
         <div id='skill'>
             <div data-aos="fade-up"  className='md:mx-40 mx-4 my-40 pt-10'>     
             <div>
-                <h2 className='flex justify-center  my-10 text-5xl'>My Skills</h2>
+                <h2 className='flex justify-center font-extrabold my-10 text-5xl'>MY Skills</h2>
+                <h2  className='flex justify-center text-5xl mb-10 font-extrabold rotate-180 -mt-10 text-gray-600 opacity-30'>sllikS YM</h2>
+
                 <div className='grid md:grid-cols-6 grid-cols-2 gap-9 '>
 
                     <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl ">

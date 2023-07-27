@@ -4,7 +4,8 @@ const About = () => {
     return (
         <div data-aos="fade-up" id='about' className='md:mx-40 mx-2 my-20 pt-14'>
             <div data-aos="fade-in" className='text-center my-6'>
-                <h2 className='text-5xl mb-10'>About Me</h2>
+                <h2 className='text-5xl mb-10 font-extrabold'>About Me</h2>
+                <h2  className='text-5xl mb-10 font-extrabold rotate-180 -mt-10 text-gray-600 opacity-30'>eM tuodA</h2>
             </div>
 
             <div className='about_container md:flex justify-between'>
