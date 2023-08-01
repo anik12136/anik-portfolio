@@ -29,9 +29,9 @@ const Contact = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left md:ms-10">
                         <h1 className="text-5xl font-bold text-sky-400">feel free to drop a message.</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
+                        {/* <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
                             In deleniti eaque aut repudiandae et a id nisi.
-                        </p>
+                        </p> */}
                         <div className=' text-base-200 '>
                             <div className='flex gap-6 '>
                                 <h2 className='mt-1'><FaLocationArrow></FaLocationArrow></h2>
