@@ -1,0 +1,15 @@
+.header_social2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+@media (min-width: 640px) {
+    .header_social2 {
+        display: none;
+    }
+}
+
