@@ -19,16 +19,16 @@ const About = () => {
                     <div className="about_content mt-4">
                         <div className="about_cards md:w-[500px]">
                             <div className='flex gap-5 justify-start'>
-                                <div data-aos="fade-right" className="card w-40 h-40 bg-sky-400 shadow-xl">
+                                <div data-aos="fade-down" className="card w-40 h-40 shadow-sky-300 shadow-md ">
                                     <div className="card-body text-center text-xl">
-                                        <h2>1+</h2>
+                                        <h2>2+</h2>
                                         <h2>years</h2>
                                         <h2>experience</h2>
                                     </div>
                                 </div>
-                                <div data-aos="fade-left" className="card w-40 h-40 bg-sky-400 shadow-xl">
+                                <div data-aos="fade-up" className="card w-40 h-40  shadow-sky-300 shadow-md">
                                     <div className="card-body text-center text-xl">
-                                        <h2>6</h2>
+                                        <h2>10+</h2>
                                         <h2>Complete</h2>
                                         <h2>Project</h2>
                                     </div>
@@ -36,15 +36,15 @@ const About = () => {
 
                             </div>
                             <div data-aos="fade-up">
-                                <p className='mt-5'>Hello ! {`I'm`} a Front-End web developer,
+                                <p className='mt-5'>Hello ! {`I'm`} a <span className="descrive_span">Front-End</span > web developer,a <span className="descrive_span">MERN</span> stack developer
                                     and {`I'm`} very passionate and dedicated to my work.
-                                    With 1+ years experience as a professional web developer.
-                                    {`I'm`} also a part time graphics designer.
+                                    With <span className="descrive_span">2+ years</span> experience as a professional web developer.
+                                    {`I'm`} also a part time <span className="descrive_span">graphics designer</span>.
                                     Currently I am studying CSE in United International university.
                                     I love to acquirer skills and knowledge.
                                     I am hardworking person and also i am a first learner.
                                     I never give up in any station in my life.
-                                    I also love to painting.
+                                    I also love to digital drawing.
                                 </p>
                             </div>
                         </div>

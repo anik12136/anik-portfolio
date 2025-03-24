@@ -1,8 +1,8 @@
 import p3 from '../../Assets/ProjectsPhoto/p3.png'
 const P3 = () => {
     return (
-        <div data-aos="fade-left" className='flex justify-center mt-4 h-[500px]'>
-            <div className=" card w-80 bg-sky-400 shadow-xl ">
+        <div data-aos="fade-down" className='flex justify-center mt-4 h-[500px]'>
+            <div className=" card w-80 bg-sky-400 shadow-xl">
                 <figure className="rounded-md">
                     {/* <img src={p3} alt="" class="w-full transition-transform duration-[4000ms] hover:-translate-y-[35%]" /> */}
                     <img src={p3} alt="" className=" duration-[3000ms] hover:-translate-y-[38%]" />

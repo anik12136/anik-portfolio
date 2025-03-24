@@ -1,7 +1,7 @@
 import p2 from '../../Assets/ProjectsPhoto/p2.png'
 const P1 = () => {
     return (
-        <div data-aos="fade-right" className='flex justify-center mt-4 h-[500px]'>
+        <div data-aos="fade-down" className='flex justify-center mt-4 h-[500px]'>
             <div className="card w-80 bg-sky-400 shadow-xl ">
                 <figure className=" overflow-hidden rounded-md">
                     <img src={p2} alt="" className="w-full transition-transform duration-[3000ms] hover:-translate-y-[35%]" />
